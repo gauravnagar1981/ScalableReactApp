@@ -1,0 +1,44 @@
+{
+  "name": "intoto",
+  "description": "intoto - latin for all together. One place to get all your relevant information viz news, entertainment, weather, transport, etc",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Rahul Sharma",
+      "email": "rahuldsharma@hotmail.co.uk"
+    },
+    {
+      "name": "Gaurav Nagar",
+      "email": "gauravnagar@hotmail.com"
+    }
+  ],
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "webpack --progress && nodemon --inspect ."
+  },
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.6.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.0",
+    "babel-plugin-react-display-name": "^2.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "jsx-loader": "^0.13.2",
+    "nodemon": "^1.11.0"
+  }
+}
