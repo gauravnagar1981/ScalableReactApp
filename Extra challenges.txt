@@ -1,0 +1,29 @@
+
+
+1. Author Adminstration (cant delete a author if he/she has a course)
+2. Delete Course  -- Done
+3. Hide empty course list when all course are deleted  -- Done
+4. Unsaved changes message when user is leaving manage course page
+5. Client side validation for category and link data
+6. Handle 404 on manage course page
+7. Show #course on header  -- Done
+8. Pagination
+9. Sort course table (mapStateToProps)   -- Done
+10. Revert abandoned changes
+11. Confirmation dialouge on delete  -- Done
+12. add Delete icon
+13. Styling
+13. Radium pacakge for stylying
+14. SAAS
+15. reselect
+
+
+
+Modal page
+Router redirect
+Styling of react components
+Business logic
+Default Sorting on page load
+Find out how async await work in redux-thunk
+
+
