@@ -5,8 +5,7 @@ import {connect} from 'react-redux';
 class App extends React.Component {
   render(){
     return(
-      <div className="container-fluid">
-        <Header loading={this.props.loading} />
+      <div>
         {this.props.children}
       </div>
     );
